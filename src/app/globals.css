@@ -2,26 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Inter+Tight:wght@400;500&display=swap');
+
+
+.text-stroke {
+  -webkit-text-stroke: 0.01em rgb(0, 0, 0);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.custom-prev,.custom-next {
+  display: flex!important;
+  width: 100px!important;
+  height: 100px!important;
+  border: 1px solid #A2AEBE!important;
+  align-items: center!important;
+  justify-content: center!important;
+  text-align: center!important;
+  border-radius: 50%;
+}
+
+.custom-prev, .custom-next {
+  position: absolute!important;
+  top: 50%!important;
+  transform: translateY(-50%)!important;
+}
+
+.custom-prev {
+  left: -150px!important;
+}
+
+.custom-next {
+  right: -150px!important;
+}
+
+@media (max-width:768px) {
+  .custom-prev {
+    left: -80px!important;
+  }
+  
+  .custom-next {
+    right: -80px!important;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@media (max-width:472px) {
+  .custom-prev {
+    left: -50px!important;
+  }
+  
+  .custom-next {
+    right: -50px!important;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media (max-width:1200px) {
+  .custom-prev,.custom-next {
+    width: 72px!important;
+    height: 72px!important;
   }
+}
+
+@media (max-width:472px) {
+  .custom-prev,.custom-next {
+    width: 48px!important;
+    height: 48px!important;
+  }
+}
+
+.sl-width {
+  max-width: 1100px;
+  position: relative!important;
+}
+@media (max-width:1440px) {
+  .sl-width {
+    max-width: 880px;
+  }
+}
+
+@media (max-width:1200px) {
+  .sl-width {
+    max-width: 450px;
+  }
+}
+
+@media (max-width:768px) {
+  .sl-width {
+    max-width: 300px;
+  }
+}
+
+@media (max-width:472px) {
+    .sl-width {
+      max-width: 200px;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none !important;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.transparent {
+  color: transparent;
 }
