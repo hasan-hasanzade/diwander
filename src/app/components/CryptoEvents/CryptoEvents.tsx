@@ -13,12 +13,12 @@ const CryptoEvents = () => {
                         <div className='text-white text-xl sm:text-5xl text-2xl text-[82px] font-medium font-interTight leading-[18px] sm:leading-[73.80px] tracking-tighter'>Verifiable Summit <br /> @ ETH Warsaw <span className='text-[#C7E9FF]'>2024</span></div>
                         <div className='mt-3 sm:mt-6  text-xs sm:text-base lg:text-2xl text-white opacity-70 text-stroke'>Verifiable Summit @ ETH Warsaw 2024 is a one-day <br /> conference dedicated to applied cryptography</div>
                         <div className='mt-3 sm:mt-12 flex items-center group'>
-                            <button className="lg:h-[100px] h-[56px] sm:h-[72px] lg:w-[432px] sm:w-[243px] w-[172px] transition-all duration-300 ease bg-white rounded-[100px] justify-center cursor-pointer active:bg-white/10 hover:bg-white/40 items-center flex">
+                            <Link href="#" className="lg:h-[100px] h-[56px] sm:h-[72px] lg:w-[432px] sm:w-[243px] w-[172px] transition-all duration-300 ease bg-white rounded-[100px] justify-center cursor-pointer active:bg-white/10 hover:bg-white/40 items-center flex">
                                     <span className="text-blue text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7">Search flight</span>
-                                </button>
-                                <div className="w-[56px] sm:w-[72px] lg:w-[100px] flex-shrink-0 h-[56px] sm:h-[72px] lg:h-[100px] flex items-center justify-center bg-white/10 rounded-[105px] transition-all duration-300 ease group-hover:bg-[#0D1723] group-active:bg-[#0D1723]/10">
+                                </Link>
+                                {/* <div className="w-[56px] sm:w-[72px] lg:w-[100px] flex-shrink-0 h-[56px] sm:h-[72px] lg:h-[100px] flex items-center justify-center bg-white/10 rounded-[105px] transition-all duration-300 ease group-hover:bg-[#0D1723] group-active:bg-[#0D1723]/10">
                                     <ArrIcon className="transparent w-[13.44px] h-[12.31px] sm:w-[17px] sm:h-[15.83px] lg:w-[24px] lg:h-[21px]" />
-                                </div>
+                                </div> */}
                         </div>
                     </div>
                     <div className='flex items-center justify-between mt-[47px] sm:mt-[97px] st:mt-[0px] lg:mt-[233px] flex-wrap gap-6 smd:gap-0'>

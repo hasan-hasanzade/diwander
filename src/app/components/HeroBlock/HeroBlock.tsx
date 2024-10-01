@@ -218,9 +218,9 @@ const HeroBlock = () => {
                                 <button className="w-full h-[56px] sm:h-[72px] lg:h-[100px] transition-all duration-300 ease bg-white rounded-[100px] justify-center cursor-pointer active:bg-white/10 hover:bg-white/40 items-center flex">
                                     <span className="text-blue text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7">Search flight</span>
                                 </button>
-                                <div className="w-[56px] sm:w-[72px] lg:w-[100px] flex-shrink-0 h-[56px] sm:h-[72px] lg:h-[100px] flex items-center justify-center bg-white/10 rounded-[105px] transition-all duration-300 ease group-hover:bg-[#0D1723] group-active:bg-[#0D1723]/10">
+                                {/* <div className="w-[56px] sm:w-[72px] lg:w-[100px] flex-shrink-0 h-[56px] sm:h-[72px] lg:h-[100px] flex items-center justify-center bg-white/10 rounded-[105px] transition-all duration-300 ease group-hover:bg-[#0D1723] group-active:bg-[#0D1723]/10">
                                     <ArrIcon className="transparent w-[13.44px] h-[12.31px] sm:w-[17px] sm:h-[15.83px] lg:w-[24px] lg:h-[21px]" />
-                                </div>
+                                </div> */}
                             </div>
 
 

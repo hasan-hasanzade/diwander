@@ -107,7 +107,7 @@ const Popular = () => {
                     </div>
                 </div>
                 <div className='flex'>
-                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out transform hover:scale-105'>
+                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out'>
                         Search flight
                     </button>
                 </div>
@@ -169,7 +169,7 @@ const Popular = () => {
                     </div>
                 </div>
                 <div className='flex'>
-                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out transform hover:scale-105'>
+                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out'>
                         Search flight
                     </button>
                 </div>
@@ -231,7 +231,7 @@ const Popular = () => {
                     </div>
                 </div>
                 <div className='flex'>
-                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out transform hover:scale-105'>
+                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out'>
                         Search flight
                     </button>
                 </div>

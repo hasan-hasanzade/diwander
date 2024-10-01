@@ -61,7 +61,7 @@ const Best = () => {
                     </div>
                     </div>
                     <div className='flex items-center'>
-                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out transform hover:scale-105'>
+                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out'>
                         Book now
                     </button>
                     <div className='flex-shrink-0 w-[48px] sm:w-[72px] lg:w-[100px] h-[48px] sm:h-[72px] lg:h-[100px] bg-blue rounded-full flex items-center justify-center'>
@@ -123,7 +123,7 @@ const Best = () => {
                     </div>
                 </div>
                 <div className='flex items-center'>
-                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out transform hover:scale-105'>
+                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out'>
                     Book now
                     </button>
                     <div className='flex-shrink-0 w-[48px] sm:w-[72px] lg:w-[100px] h-[48px] sm:h-[72px] lg:h-[100px] bg-blue rounded-full flex items-center justify-center'>
@@ -184,7 +184,7 @@ const Best = () => {
                     </div>
                 </div>
                 <div className='flex items-center'>
-                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out transform hover:scale-105'>
+                    <button className='w-full h-[48px] sm:h-[72px] lg:h-[100px] bg-white rounded-full text-xs sm:text-base lg:text-2xl font-bold font-manrope leading-7 transition-all duration-300 ease-in-out'>
                     Book now
                     </button>
                     <div className='flex-shrink-0 w-[48px] sm:w-[72px] lg:w-[100px] h-[48px] sm:h-[72px] lg:h-[100px] bg-blue rounded-full flex items-center justify-center'>

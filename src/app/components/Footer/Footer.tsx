@@ -45,8 +45,7 @@ const Footer = () => {
                             </div>
                             <div className='text-white/40 text-[10px] sm:text-sm font-semibold font-manrope leading-3 tracking-tighter'>Digital Wander Limited Hong Kong №76884844</div>
                         </div>
-                        <div className='mt-[31px] st:mt-[0px] flex justify-between max-w-full st:max-w-[432px] lg:max-w-[595px] w-full items-end st:items-center lg:justify-normal gap-0 lg:gap-[237px]'>
-                            <div className='text-white/50  text-sm sm:text-base lg:text-2xl font-medium font-manrope leading-snug tracking-tighter'>Дизайн сайта: anfalova.art</div>
+                        <div className='mt-[31px] st:mt-[0px] flex justify-end max-w-full st:max-w-[432px] lg:max-w-[595px] w-full items-end st:items-end lg:justify-end gap-0 lg:gap-[237px]'>
                             <button className='w-[48px] h-[48px] sm:w-[72px] sm:h-[72px] bg-white/10 rounded-[36px] flex-shrink-0  flex justify-center items-center'><SettingsIcon className='w-[24px] h-[24px]'/></button>
                         </div>
                     </div>
